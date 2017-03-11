@@ -102,8 +102,17 @@ function setGame(wordgame) {
     console.log('wordgame', wordgame);
     modalState.modal.wordGame = wordgame;
     setFont();
+    var guess_entered = document.getElementById("guess_entered");
+    while (guess_entered.firstElementChild)
+    {
+        guess_entered.removeChild(guess_entered.firstElementChild);
+    }
     document.getElementById('remaining').innerHTML = modalState.modal.wordGame.remaining + ' guesses remaining.';
     var guess_target = document.getElementById('guess_target');
+    while (guess_target.firstElementChild)
+    {
+        guess_target.removeChild(guess_target.firstElementChild);
+    }
     for(var i = 0; i < modalState.modal.wordGame.target.length; i++)
     {
         var span = document.createElement("span");
