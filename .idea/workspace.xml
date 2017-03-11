@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f49bcd1-cd92-463b-bbef-dbc4460a1649" name="Default" comment="" />
-    <ignored path="$USER_HOME$/WebstormProjects/CS502_WordGame/.tmp/" />
-    <ignored path="$USER_HOME$/WebstormProjects/CS502_WordGame/temp/" />
-    <ignored path="$USER_HOME$/WebstormProjects/CS502_WordGame/tmp/" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +19,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/WebstormProjects/hw3/public/index.html">
+        <entry file="file://$PROJECT_DIR$/../hw3/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="393">
               <caret line="102" column="31" lean-forward="false" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -32,17 +32,27 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/WebstormProjects/hw3/routes/index.js">
+        <entry file="file://$PROJECT_DIR$/../hw3/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="580" column="5" lean-forward="false" selection-start-line="562" selection-start-column="4" selection-end-line="580" selection-end-column="5" />
+            <state relative-caret-position="345">
+              <caret line="274" column="17" lean-forward="true" selection-start-line="274" selection-start-column="17" selection-end-line="274" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hw3/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/WebstormProjects/hw3/public/stylesheets/style.css">
+        <entry file="file://$PROJECT_DIR$/../hw3/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
               <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
@@ -52,10 +62,10 @@
         </entry>
       </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/WebstormProjects/hw3/public/javascripts/app.js">
+        <entry file="file://$PROJECT_DIR$/../hw3/public/javascripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="73" column="18" lean-forward="false" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="72" column="27" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -64,25 +74,22 @@
         </entry>
       </file>
       <file leaf-file-name="games.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/WebstormProjects/hw3/routes/games.js">
+        <entry file="file://$PROJECT_DIR$/../hw3/routes/games.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="453">
               <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
-                <marker date="1489140371000" expanded="true" signature="1032:1999" ph="{...}" />
-                <marker date="1489140371000" expanded="true" signature="2068:2293" ph="{...}" />
-                <marker date="1489140371000" expanded="true" signature="2351:2461" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/WebstormProjects/hw3/routes/db.js">
+        <entry file="file://$PROJECT_DIR$/../hw3/routes/db.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+              <caret line="14" column="73" lean-forward="false" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
               </folding>
@@ -91,22 +98,20 @@
         </entry>
       </file>
       <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/WebstormProjects/hw3/routes/users.js">
+        <entry file="file://$PROJECT_DIR$/../hw3/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
+            <state relative-caret-position="-243">
               <caret line="88" column="23" lean-forward="false" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
-              <folding>
-                <marker date="1489198200000" expanded="true" signature="2229:4075" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="gameModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/WebstormProjects/hw3/routes/gameModel.js">
+        <entry file="file://$PROJECT_DIR$/../hw3/routes/gameModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="48" />
+            <state relative-caret-position="150">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
               </folding>
@@ -129,22 +134,26 @@
       <find>console</find>
       <find>guessing</find>
       <find>success</find>
+      <find>=&gt;</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/WebstormProjects/CS502_WordGame/routes/db.js" />
-        <option value="$USER_HOME$/WebstormProjects/CS502_WordGame/routes/userModel.js" />
-        <option value="$USER_HOME$/WebstormProjects/CS502_WordGame/public/javascripts/login.js" />
-        <option value="$USER_HOME$/WebstormProjects/CS502_WordGame/app.js" />
-        <option value="$USER_HOME$/WebstormProjects/CS502_WordGame/routes/gameModel.js" />
-        <option value="$USER_HOME$/WebstormProjects/CS502_WordGame/routes/games.js" />
-        <option value="$USER_HOME$/WebstormProjects/CS502_WordGame/public/index.html" />
-        <option value="$USER_HOME$/WebstormProjects/CS502_WordGame/routes/index.js" />
-        <option value="$USER_HOME$/WebstormProjects/CS502_WordGame/public/stylesheets/style.css" />
-        <option value="$USER_HOME$/WebstormProjects/CS502_WordGame/public/javascripts/app.js" />
-        <option value="$USER_HOME$/WebstormProjects/CS502_WordGame/routes/users.js" />
+        <option value="$PROJECT_DIR$/routes/db.js" />
+        <option value="$PROJECT_DIR$/routes/userModel.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/login.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/gameModel.js" />
+        <option value="$PROJECT_DIR$/routes/games.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/public/javascripts/app.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/../hw3/routes/index.js" />
+        <option value="$PROJECT_DIR$/../hw3/public/javascripts/app.js" />
+        <option value="$PROJECT_DIR$/../hw3/routes/db.js" />
       </list>
     </option>
   </component>
@@ -154,7 +163,7 @@
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$USER_HOME$/WebstormProjects/hw3/package.json" />
+    <package-json value="$PROJECT_DIR$/../hw3/package.json" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
@@ -167,7 +176,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$USER_HOME$/WebstormProjects/hw3/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../hw3/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1280" />
@@ -302,10 +311,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/WebstormProjects/CS502_WordGame/routes" />
-      <recent name="$USER_HOME$/WebstormProjects/CS502_WordGame/public/javascripts" />
-      <recent name="$USER_HOME$/WebstormProjects/CS502_WordGame/public/images" />
-      <recent name="$USER_HOME$/WebstormProjects/CS502_WordGame/public" />
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/public/javascripts" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.bin/www">
@@ -376,12 +385,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488174366923</updated>
-      <workItem from="1488174379156" duration="120090000" />
+      <workItem from="1488174379156" duration="122748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120090000" />
+    <option name="totallyTimeSpent" value="122748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -436,7 +445,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/public/javascripts/wordlist.txt">
+    <entry file="file://$PROJECT_DIR$/../hw3/public/javascripts/wordlist.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -444,7 +453,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/routes/wordlist.txt">
+    <entry file="file://$PROJECT_DIR$/../hw3/routes/wordlist.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -460,7 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/node_modules/express/lib/router/index.js">
+    <entry file="file://$PROJECT_DIR$/../hw3/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="457" column="12" lean-forward="false" selection-start-line="457" selection-start-column="12" selection-end-line="457" selection-end-column="12" />
@@ -468,7 +477,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/CS502_WordGame/public/javascripts/login.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
@@ -476,15 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/node_modules/mongodb/lib/utils.js">
+    <entry file="file://$PROJECT_DIR$/../hw3/node_modules/mongodb/lib/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
@@ -492,17 +493,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/routes/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/routes/userModel.js">
+    <entry file="file://$PROJECT_DIR$/../hw3/routes/userModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
@@ -512,17 +503,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/routes/gameModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/app.js">
+    <entry file="file://$PROJECT_DIR$/../hw3/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
@@ -530,7 +511,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/public/stylesheets/style.css">
+    <entry file="file://$PROJECT_DIR$/../hw3/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
@@ -538,9 +519,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/public/index.html">
+    <entry file="file://$PROJECT_DIR$/../hw3/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="393">
           <caret line="102" column="31" lean-forward="false" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -549,41 +530,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/routes/games.js">
+    <entry file="file://$PROJECT_DIR$/../hw3/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-            <marker date="1489140371000" expanded="true" signature="1032:1999" ph="{...}" />
-            <marker date="1489140371000" expanded="true" signature="2068:2293" ph="{...}" />
-            <marker date="1489140371000" expanded="true" signature="2351:2461" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="580" column="5" lean-forward="false" selection-start-line="562" selection-start-column="4" selection-end-line="580" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/routes/users.js">
+    <entry file="file://$PROJECT_DIR$/../hw3/routes/games.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="88" column="23" lean-forward="false" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+        <state relative-caret-position="453">
+          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
           <folding>
-            <marker date="1489198200000" expanded="true" signature="2229:4075" ph="{...}" />
+            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/hw3/public/javascripts/app.js">
+    <entry file="file://$PROJECT_DIR$/../hw3/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="73" column="18" lean-forward="false" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+        <state relative-caret-position="-243">
+          <caret line="88" column="23" lean-forward="false" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hw3/routes/gameModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hw3/routes/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="73" lean-forward="false" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hw3/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="274" column="17" lean-forward="true" selection-start-line="274" selection-start-column="17" selection-end-line="274" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hw3/public/javascripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="72" column="27" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
