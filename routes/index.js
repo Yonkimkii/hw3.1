@@ -167,7 +167,7 @@ router.post('/wordGame/api/v2/:userid', function (req, res) {
     for (var i = 0; i < target.length; i++) {
         view.push('_');
     }
-    Game.create(req.params.userid, colors, font, level, target, view, (err, newGame) => {
+    Game.create(req.params.userid, colors, font, level, target, view, function(err, newGame){
         if (err) {
             throw err;
         } else {
@@ -266,7 +266,7 @@ router.post('/wordgame/api/v2/:userid/:gid/guesses', function (req, res) {
                 game.status = 'lose';
             }
             console.log('guessed', game);
-            Game.update(game.userId, game.id, game, (err1, newGame) => {
+            Game.update(game.userId, game.id, game, function(err1, newGame){
                 if (err1) {
                     res.json({msg: err1});
                 } else {
