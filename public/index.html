@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WordGame</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <!--<script src="javascripts/jquery-3.1.1.js"></script>-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="javascripts/app.js"></script>
+</head>
+<body>
+    <div class="container">
+		<div id="login">
+			<div class="wordgames-title">Word Game</div>
+				<form class="pull-right" name="loginForm" id="login-form">
+					<h3>Log in</h3>
+					<div class="form-group">
+						<label for="lg_username" class="sr-only">Username</label>
+						<input type="text" id="login_email" name="email" placeholder="email" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<label for="lg_password" class="sr-only">Password</label>
+						<input type="password" id="login_password" name="password" placeholder="password" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<button type="submit" value="Log in" onclick="login(event)" class="btn btn-primary btn-sm">
+							<i class="glyphicon glyphicon-chevron-right"></i>
+						</button>
+					</div>
+				</form>
+		</div>
+        <div id="content">
+			<div class="well well-sm">
+				<span>Welcome to Word Game</span>
+				<span class="btn btn-xs btn-default pull-right" style="display: inline-block;" onclick="logout(event)">logout</span>
+				<span class="pull-right" id="email" style="margin-right: 1em;"></span>
+			</div>
+            <div id="start_game" class="well well-sm">
+                <form class="form-inline form-group-sm">
+                    <label>Font
+                    	<select id="font" name="font" onchange="setFont(event), changeDefaults()">
+						</select>
+                    </label>
+                    <label>Level
+                    	<select id="level" name="level" onchange="changeDefaults()">
+                            <option value="easy">easy</option>
+                            <option value="medium" selected="selected">medium</option>
+                            <option value="hard" >hard</option>
+                        </select>
+                    </label>
+                    <div class="input-group">
+                    	<span class="input-group-addon">Word
+                    	<input id="wordBackground" type="color" name="wordBackground" onchange="changeDefaults()">
+                    	</span>
+						<span class="input-group-addon">Guess
+                    	<input id="guessBackground" type="color" name="guessBackground" onchange="changeDefaults()">
+                    	</span>
+						<span class="input-group-addon">Fore
+                    	<input id="textBackground" type="color" name="textBackground" onchange="changeDefaults()">
+                    	</span>
+                    </div>
+					<!--<span type="submit" value="New Game" class="btn btn-primary pull-right">
+						New Game<a href="/wordgame/api/v2/:userid"></a>
+					</span>-->
+					<span type="submit" value="New Game" onclick="createWordGame(event)" class="btn btn-primary pull-right">
+						New Game
+					</span>
+                </form>
+            </div>
+            <br/>
+            <table id="save_game" class="table table-condensed table-bordered table-striped table-hover">
+            	<tr>
+            		<td>Level</td>
+            		<td>Phrase</td>
+            		<td>Remaining</td>
+            		<td>Answer</td>
+            		<td>Status</td>
+            	</tr>
+            </table>
+        </div>
+    </div>
+    
+    <div id="gameModal">
+    	<div class="well well-lg">
+    		<div id="gusee remaining">
+    			<span id="remaining"></span>
+    			<span id="guess">
+    				<input type="text" id="guess_char" onKeyUp="guessWord(event)">
+    			</span>
+    			<span class="btn btn-sm btn-primary">Guess</span>
+    			<span class="glyphicon glyphicon-remove-sign pull-right" onClick="quitGame(event)"></span>
+    		</div>
+    		<div id="guess_entered" class="pull-right">
+    		</div>
+    		<div id="guess_target">
+    		</div>
+    	</div>
+    </div>
+    
+    <div id="result">
+    	<div class="well well-lg" id="guess_result">
+			<div id="background">
+			<img id="result_img">
+    		<div>
+    			<span id="guess_process"></span>
+    			<span class="glyphicon glyphicon-remove-sign pull-right" onclick="quitGame()"></span>
+    		</div>
+    		<div id="target_result"></div>
+			</div>
+    	</div>
+    </div>
+</body>
+</html>

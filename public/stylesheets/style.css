@@ -1,0 +1,33 @@
+#login-form {
+  max-width : 600px;
+  min-width: 300px;
+  padding: 15px;
+  background-color : #eee;
+  border-radius: .5em;
+  margin-top: 1em;
+}
+
+.wordgames-title {
+  font-size: 400%;
+  text-shadow : 3px 3px 3px black;
+  font-family : 'Montserrat', sans-serif;
+  font-weight : bold;
+  color : white;
+  letter-spacing : 3px;
+}
+
+#guess_span {
+  font-size: 400%;
+  width: 50px;
+  height: 100px;
+}
+
+#success {
+  background-image: url("../images/winner.gif");
+  background-size: cover;
+}
+
+#fail {
+  background-image: url("../images/cry.gif");
+  background-size: cover;
+}
