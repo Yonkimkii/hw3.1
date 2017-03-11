@@ -123,7 +123,7 @@ router.all('/wordgame/api/v2/:userid/*', function (req, res, next) {
 });
 
 router.get('/wordGame/api/v2/:userid', function (req, res) {
-    Game.findByUserId(req.params.userid, (err1, games) => {
+    Game.findByUserId(req.params.userid, function(err1, games){
         console.log('get_games', games);
         if (err1) {
             res.json({msg: err1});
@@ -223,11 +223,11 @@ router.put('/wordgame/api/v2/:userid/defaults', function (req, res) {
 });
 
 router.get('/api/v2/:userid/:gid', function (req, res) {
-    User.findById(req.params.userid, (err, user) => {
+    User.findById(req.params.userid, function(err, user){
         if (err || !user) {
             res.json({msg: err});
         } else {
-            Game.find(user.id, req.params.gid, (err1, game) => {
+            Game.find(user.id, req.params.gid, function(err1, game) {
                 if (err1 || !game) {
                     res.json({msg: err1});
                 } else {
@@ -242,7 +242,7 @@ router.post('/wordgame/api/v2/:userid/:gid/guesses', function (req, res) {
     console.log('guess req.body', req.body);
     console.log('guess_req.params.userid', req.params.userid);
     console.log('guess_req.params.gid', req.params.gid);
-    Game.find(req.params.userid, req.params.gid, (err, oldgame) => {
+    Game.find(req.params.userid, req.params.gid, function(err, oldgame){
         if (err) {
             res.json({msg: err});
         } else {
