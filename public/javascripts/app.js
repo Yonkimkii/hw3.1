@@ -41,7 +41,7 @@ function setPage(page) {
   $('#content').show();
 
     modalState.page.pages.forEach(
-        p => {
+        function(p) {
             var selector = "#" + p;
             modalState.page.page == p ? $(selector).show() : $(selector).hide();
         }
@@ -244,7 +244,7 @@ function generateTable(games) {
     }
     var props = ['Level', 'Phrase', 'Remaining', 'Answer', 'Status'];
     makeRow('th', props).appendTo(table);
-    games.forEach( (wordgame) => {
+    games.forEach( function(wordgame){
         var tr = document.createElement('tr');
         var td = document.createElement('td');
         td.innerHTML = wordgame.level;
@@ -275,7 +275,7 @@ function generateTable(games) {
         td = document.createElement('td');
         td.innerHTML = wordgame.status;
         tr.appendChild(td);
-        tr.click((event) => continueWordGame(wordgame));
+        tr.click(function(event){ continueWordGame(wordgame)});
         table.appendChild(tr);
         wordgame.row = tr;
     });
@@ -334,7 +334,7 @@ function setHomePage(user) {
 function createWordGame(event)
 {
     var fonts = $('#font').val();
-    fonts = meta.fonts.filter((f) => f.family == fonts );
+    fonts = meta.fonts.filter(function(f) {return f.family == fonts;});
     var font = fonts[0];
     console.log('font', font);
     var url = font.url;
@@ -422,7 +422,7 @@ function guessWord(event) {
 
 function changeDefaults() {
     var fonts = $('#font').val();
-    fonts = meta.fonts.filter((f) => f.family == fonts );
+    fonts = meta.fonts.filter(function(f){return f.family == fonts;} );
     var font = fonts[0];
     console.log('font', font);
     var url = font.url;

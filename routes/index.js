@@ -259,10 +259,10 @@ router.post('/wordgame/api/v2/:userid/:gid/guesses', function (req, res) {
                 }
             }
             game.remaining = game.remaining - 1;
-            if (game.view.filter((c) => c == '_').length <= 0) {
+            if (game.view.filter(function(c){return c == '_';}).length <= 0) {
                 game.status = 'victory';
             }
-            if (game.remaining < 1 && game.view.filter((c) => c == '_').length > 0) {
+            if (game.remaining < 1 && game.view.filter(function(c) {return c == '_';}).length > 0) {
                 game.status = 'lose';
             }
             console.log('guessed', game);

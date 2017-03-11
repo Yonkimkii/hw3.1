@@ -12,4 +12,4 @@ mongoClient.connect("mongodb://localhost:27017/wordgame", function (err, databas
     db = database;
 });
 
-module.exports = {collection : (name) => db.collection(name)};
+module.exports = {collection : function(name){return db.collection(name);}};
